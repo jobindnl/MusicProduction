@@ -5,4 +5,44 @@
     background-color: black;
   }
 
+  .container {
+    display: flex;
+    align-items: center;
+  }
   
+  div h1 {
+    white-space: nowrap;
+    /* border-bottom: 1px solid white; */
+  }
+  
+  .logo {
+    display: block;
+    flex-basis: 70%;
+  }
+  
+  #title {
+    margin-right: 20px;
+  }
+  
+  
+  li {
+    list-style-type: none;
+    font-size: small;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.877);
+    margin: 20px 20px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  div p {
+    font-weight: 150;
+    margin-top: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
