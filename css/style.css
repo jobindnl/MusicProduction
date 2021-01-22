@@ -19,11 +19,28 @@
     display: block;
     flex-basis: 70%;
   }
+
+  .container {
+    position: relative;
+    animation-name: header;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
   
   #title {
     margin-right: 20px;
   }
-  
+ 
+  @keyframes header{
+    0%{
+      top: -40px;
+      opacity: 0;
+    }
+    100%{
+      top: 0px;
+      opacity: 1;
+    }
+  }
   
   li {
     list-style-type: none;
