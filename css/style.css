@@ -24,13 +24,18 @@
     position: relative;
     animation-name: header;
     animation-duration: 2s;
-    animation-fill-mode: forwards;
   }
   
   #title {
     margin-right: 20px;
   }
  
+  nav {
+   animation-name: nav-bar;
+   animation-duration: 3s; 
+  }
+
+
   @keyframes header{
     0%{
       top: -40px;
@@ -41,14 +46,25 @@
       opacity: 1;
     }
   }
+
+  @keyframes nav-bar {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+
+  }
   
   li {
     list-style-type: none;
     font-size: small;
     font-weight: bolder;
-    color: rgba(255, 255, 255, 0.877);
+    color: rgb(220, 220, 220);
     margin: 20px 20px;
   }
+
   
   ul {
     display: flex;
