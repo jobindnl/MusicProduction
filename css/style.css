@@ -1,81 +1,102 @@
 * {
-    font-family: sans-serif;
-    margin: 0;
-    color: white;
-    background-color: black;
-  }
+  font-family: sans-serif;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
 
-  .container {
-    display: flex;
-    align-items: center;
-  }
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  animation-name: header;
+  animation-duration: 2s;
+}
+
+div h1 {
+  white-space: nowrap;
+  /* border-bottom: 1px solid white; */
+}
+
+
+.logo {
+  display: block;
+  min-width: 200px;
+  flex-basis: 70%;
+}
+
+.plugins{
+  display: flex;
+}
+
+.plugin-statement{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.plugin-statement p {
+  height: 400px;
+  width: 100%;
+}
+
+.picture{
+  width: 40%;
+  min-width: 200px;
   
-  div h1 {
-    white-space: nowrap;
-    /* border-bottom: 1px solid white; */
-  }
-  
-  .logo {
-    display: block;
-    flex-basis: 70%;
-  }
+}
 
-  .container {
-    position: relative;
-    animation-name: header;
-    animation-duration: 2s;
-  }
-  
-  #title {
-    margin-right: 20px;
-  }
- 
-  nav {
-   animation-name: nav-bar;
-   animation-duration: 3s; 
-  }
+#title {
+  margin-right: 20px;
+  width: 30%;
+}
+
+nav {
+  animation-name: nav-bar;
+  animation-duration: 3s; 
+}
 
 
-  @keyframes header{
-    0%{
-      top: -40px;
-      opacity: 0;
-    }
-    100%{
-      top: 0px;
-      opacity: 1;
-    }
+@keyframes header{
+  0%{
+    top: -40px;
+    opacity: 0;
+  }
+  100%{
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes nav-bar {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 
-  @keyframes nav-bar {
-    0%{
-      opacity: 0;
-    }
-    100%{
-      opacity: 1;
-    }
+}
 
-  }
-  
-  li {
-    list-style-type: none;
-    font-size: small;
-    font-weight: bolder;
-    color: rgb(220, 220, 220);
-    margin: 20px 20px;
-  }
+li {
+  list-style-type: none;
+  font-size: small;
+  font-weight: bolder;
+  color: rgb(220, 220, 220);
+  margin: 20px 20px;
+}
 
-  
-  ul {
-    display: flex;
-    justify-content: center;
-  }
-  div p {
-    font-weight: 150;
-    margin-top: 5px;
-  }
-  
-  img {
-    max-width: 100%;
-  }
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+div p {
+  font-weight: 150;
+  margin-top: 5px;
+}
+
+img {
+  max-width: 100%;
+}
 
