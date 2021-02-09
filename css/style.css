@@ -11,6 +11,7 @@
   position: relative;
   animation-name: header;
   animation-duration: 2s;
+  height: 800px;
 }
 
 div h1 {
@@ -35,20 +36,33 @@ div h1 {
   /* justify-content: center; */
 }
 
-.plugin-statement p {
-  height: 400px;
-  width: 100%;
+.picture {
+  width: 40%;
+  height: 40%;
+  /* min-width: 200px; */
 }
 
-.picture{
-  width: 40%;
-  min-width: 200px;
-  
+.picture * {
+  position: absolute;
+  width: 30%;
+  margin-left: 15vw;
+}
+
+.picture *:nth-child(1){
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.picture *:nth-child(2){
+  margin-left: 200px;
+  margin-top: 190px;
+  z-index: 1;
 }
 
 #title {
   margin-right: 20px;
   width: 30%;
+  font-size: 1.3vw;
 }
 
 nav {
