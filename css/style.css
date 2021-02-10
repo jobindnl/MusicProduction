@@ -28,12 +28,15 @@ div h1 {
 
 .plugins{
   display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  position: relative;
 }
 
-.plugin-statement{
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
+.statement p{
+  font-size: 3.5vh;
+  color: rgb(181, 181, 181);
 }
 
 .picture {
@@ -45,21 +48,26 @@ div h1 {
 .picture * {
   position: absolute;
   width: 30%;
-  margin-left: 15vw;
+  max-width: 300px;
+  /* margin-left: 15vw; */
 }
 
-.picture *:nth-child(1){
-  margin-top: 70px;
-  margin-left: 50px;
+.picture *:nth-child(3){
+  left: 60px;
 }
 
 .picture *:nth-child(2){
-  margin-left: 200px;
-  margin-top: 190px;
-  z-index: 1;
+  left: 100px;
+  top: 80px;
+  z-index: 2;
 }
 
-#title {
+.picture *:nth-child(1){
+  left: 150px;
+  top: 30px;
+  z-index: 1;
+}
+  #title {
   margin-right: 20px;
   width: 30%;
   font-size: 1.3vw;
