@@ -31,21 +31,26 @@ div h1 {
 
 .plugins{
   display: flex;
-  justify-content: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-bottom: 150px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .statement p{
-  font-size: 3.5vh;
+  font-size: 20px;
   color: rgb(181, 181, 181);
 }
 
+.statement {
+  max-width: 35%;
+  min-width: 335px;
+}
 .picture {
   width: 40%;
   height: 40%;
-  /* min-width: 200px; */
+  min-width: 360px;
 }
 
 .picture * {
