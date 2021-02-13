@@ -8,10 +8,11 @@
 .container {
   display: flex;
   align-items: center;
-  position: relative;
+  flex-wrap: wrap;
+  /* position: relative; */
   animation-name: header;
   animation-duration: 2s;
-  height: 800px;
+  height: 700px;
 }
 
 div h1 {
@@ -22,8 +23,9 @@ div h1 {
 
 .logo {
   display: block;
-  min-width: 200px;
-  flex-basis: 70%;
+  flex-grow: 1;
+  min-width: 530px;
+  flex-basis: 50%;
 }
 
 .plugins{
@@ -67,9 +69,8 @@ div h1 {
   top: 30px;
   z-index: 1;
 }
-  #title {
-  margin-right: 20px;
-  width: 30%;
+#title {
+  flex-grow: 1;
   font-size: 1.3vw;
 }
 
