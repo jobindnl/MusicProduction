@@ -8,6 +8,7 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   /* position: relative; */
   animation-name: header;
@@ -23,9 +24,9 @@ div h1 {
 
 .logo {
   display: block;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   min-width: 530px;
-  flex-basis: 50%;
+  flex-basis: 70%;
 }
 
 .plugins{
@@ -70,8 +71,8 @@ div h1 {
   z-index: 1;
 }
 #title {
-  flex-grow: 1;
-  font-size: 1.3vw;
+  /* flex-grow: 1; */
+  margin: 0 auto;
 }
 
 nav {
