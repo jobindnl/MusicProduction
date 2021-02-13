@@ -10,14 +10,16 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* position: relative; */
+  position: relative;
   animation-name: header;
   animation-duration: 2s;
   height: 700px;
 }
 
+
 div h1 {
   white-space: nowrap;
+  margin-right: 10px;
   /* border-bottom: 1px solid white; */
 }
 
