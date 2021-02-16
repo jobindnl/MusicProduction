@@ -50,20 +50,22 @@ div h1 {
   min-width: 335px;
 }
 .picture {
-  width: 40%;
+  /* width: 40%; */
   height: 400px;
-  min-width: 360px;
+  min-width: 600px;
+  position: relative;
+  /* left: 5px; */
 }
 
 .picture * {
   position: absolute;
-  width: 30%;
-  max-width: 300px;
+  /* width: 30%; */
+  width: 400px;
   /* margin-left: 15vw; */
 }
 
 .picture *:nth-child(3){
-  left: 60px;
+  left: 80px;
 }
 
 .picture *:nth-child(2){
