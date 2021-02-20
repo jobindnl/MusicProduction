@@ -66,22 +66,15 @@ div h1 {
   max-width: 35%;
   min-width: 335px;
 }
-.picture {
-  /* width: 40%; */
-  height: 400px;
-  min-width: 550px;
-  position: relative;
-  left: -30px;
-}
 
 .picture * {
-  position: absolute;
+  /* position: absolute; */
   /* width: 30%; */
   width: 400px;
   /* margin-left: 15vw; */
 }
 
-.picture *:nth-child(3){
+/* .picture *:nth-child(3){
   left: 80px;
 }
 
@@ -95,7 +88,8 @@ div h1 {
   left: 150px;
   top: 30px;
   z-index: 1;
-}
+} */
+
 #title {
   /* flex-grow: 1; */
   margin: 30px auto;
