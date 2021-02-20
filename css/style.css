@@ -1,6 +1,7 @@
 * {
   font-family: sans-serif;
   margin: 0;
+  padding: 0;
   color: white;
   background-color: black;
 }
@@ -9,12 +10,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   position: relative;
   flex-direction: column;
   animation-name: header;
   animation-duration: 2s;
   height: 700px;
+}
+
+.statement a {
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.statement a:hover{
+  color: black;
+  background: white;
+  border: 2px solid white;
 }
 
 
@@ -29,8 +43,9 @@ div h1 {
   display: block;
   /* flex-grow: 1; */
   min-width: 330px;
-  flex-basis: 50%;
-  /* margin-left: 80px; */
+  max-width: 400px;
+  /* flex-basis: 10%; */
+  /* outline: 2px solid magenta; */
 }
 
 .plugins{
@@ -83,7 +98,7 @@ div h1 {
 }
 #title {
   /* flex-grow: 1; */
-  margin: 40px auto;
+  margin: 30px auto;
 }
 
 nav {
