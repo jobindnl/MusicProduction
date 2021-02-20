@@ -47,8 +47,8 @@
 .statement a {
   text-decoration: none;
   border: 2px solid white;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 20px;
+  padding: 10px 20px;
   font-size: 17px;
 }
 
