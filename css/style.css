@@ -14,7 +14,34 @@
   flex-direction: column;
   animation-name: header;
   animation-duration: 2s;
+  /* background-image: url(../img/studio.jpg);
+  background-size: contain; */
   height: 700px;
+}
+
+.bg-dark {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.bg-popup{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.bg-popup p {
+  background: white;
+  color: black;
+  padding: 20px;
 }
 
 .statement a {
@@ -62,15 +89,23 @@ div h1 {
   color: rgb(181, 181, 181);
 }
 
+.statement h3 {
+  font-size: 30px;
+}
+
 .statement {
   max-width: 35%;
   min-width: 335px;
+  padding: 5%;
+  text-align: center;
 }
 
 .picture * {
   /* position: absolute; */
   /* width: 30%; */
   width: 400px;
+  border: 1px solid white;
+  border-radius: 5px;
   /* margin-left: 15vw; */
 }
 
