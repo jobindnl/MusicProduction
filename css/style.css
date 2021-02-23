@@ -91,6 +91,7 @@ div h1 {
 
 .statement h3 {
   font-size: 30px;
+  max-width: 357px;
 }
 
 .statement {
@@ -104,8 +105,8 @@ div h1 {
   /* position: absolute; */
   /* width: 30%; */
   width: 400px;
-  border: 1px solid white;
-  border-radius: 5px;
+  /* border: 3px solid white; */
+  border-radius: 8px;
   /* margin-left: 15vw; */
 }
 
