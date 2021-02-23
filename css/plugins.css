@@ -1,5 +1,7 @@
 * {
     font-family: sans-serif;
+    color: white;
+    background: black;
     box-sizing: border-box;
     margin: 0;
 }
@@ -12,16 +14,22 @@
 }
 
 .heading h1 {
-    text-align: center;
+    /* text-align: center;
     padding-left: 60px;
-    padding-right: 60px;
+    padding-right: 60px; */
+    border: 2px solid white;
+    width: 300px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 24px;
+    font-weight: lighter;
 }
 
-.grid img + p {
-    text-align:justify;
+.grid div+p {
+    text-align: justify;
     padding-top: 20px;
     color: rgb(170, 170, 170);
-    
 }
 
 .grid {
@@ -30,16 +38,50 @@
     padding-bottom: 100px;
     display: flex;
     justify-content: space-evenly;
-    color: white;
-    background: black;
+}
+
+.card h3 {
+    position: relative;
+    top: 120px;
+    left: 75px;
+    border: 4px solid white;
+    width: 150px;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding: 4px;
+}
+
+.cover {
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+#EQ {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url('../img/EQ.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#Delay {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url('../img/Delay.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#De-Esser {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url('../img/De-Esser.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .grid img {
     width: 300px;
 }
 
-.card{
+.card {
     margin: 40px;
     width: 300px;
 }
-
