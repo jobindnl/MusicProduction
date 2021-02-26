@@ -50,7 +50,9 @@
   border-radius: 20px;
   padding: 10px 20px;
   font-size: 17px;
+  transition-duration: 0.3s;
 }
+
 
 .statement a:hover{
   color: black;
