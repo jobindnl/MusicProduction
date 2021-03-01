@@ -4,14 +4,18 @@
   padding: 0;
   color: white;
   background-color: black;
+  box-sizing: border-box;
 }
-
+img{
+  border: 0px solid white;
+  border-radius: 10px;
+}
 .slider-container {
   width: 532px;
   margin: auto;
+  overflow: hidden;
 }
 
-#slider {
+.slider {
   display: flex;
-  /* overflow: hidden; */
 }
