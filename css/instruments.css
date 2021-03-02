@@ -12,7 +12,7 @@ img{
   width: 300px;
 }
 
-.prev , .next{
+/* .prev , .next{
   position: absolute;
 }
 
@@ -20,7 +20,7 @@ img{
   top: 50%;
   left: 6%;
   transform: translate(-50%, -50%);
-}
+} */
 
 button {
   border: none;
@@ -30,24 +30,25 @@ button {
   font-size: large;
   padding: 15px;
   background: grey; 
-  color: black;
+  color: #ededed;
+  cursor: pointer;
 }
 
-.next {
+/* .next {
   top: 50%;
   left: 94%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .slider-container {
   border-radius: 40px;
   width: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .slider {

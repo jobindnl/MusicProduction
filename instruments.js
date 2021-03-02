@@ -6,18 +6,19 @@ slider = slider[0]
 
 let counter = 0
 
-next[0].addEventListener("click", function (){
-    if(counter === 24 ){
-        return
-    }
-    counter++
-    slider.style.transform = "translateX(" + -300 * counter + "px)"
-})
+// next[0].addEventListener("click", function (){
+//     if(counter === 24 ){
+//         return
+//     }
+//     counter++
+//     slider.style.transform = "translateX(" + -300 * counter + "px)"
+// })
 
-prev[0].addEventListener("click", function (){
-    if(counter === 0){
-        return
-    }
-    counter--
-    slider.style.transform = "translateX(" + -300 * counter + "px)"
-})
+// prev[0].addEventListener("click", function (){
+//     if(counter === 0){
+//         return
+//     }
+//     counter--
+//     slider.style.transform = "translateX(" + -300 * counter + "px)"
+// })
+
