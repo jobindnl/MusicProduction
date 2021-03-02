@@ -3,9 +3,11 @@ let prev = document.getElementsByClassName("prev")
 let next = document.getElementsByClassName("next")
 let slider = document.getElementsByClassName("slider")
 slider = slider[0]
+
 let counter = 0
+
 next[0].addEventListener("click", function (){
-    if(counter === 8 ){
+    if(counter === 24 ){
         return
     }
     counter++
@@ -19,4 +21,3 @@ prev[0].addEventListener("click", function (){
     counter--
     slider.style.transform = "translateX(" + -532 * counter + "px)"
 })
-
