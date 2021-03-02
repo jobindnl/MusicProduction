@@ -7,13 +7,13 @@
   box-sizing: border-box;
 }
 img{
-  border: 0px solid white;
-  border-radius: 10px;
+  border: 0px solid transparent;
+  border-radius: 90px;
 }
 .slider-container {
   width: 532px;
   margin: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .slider {
