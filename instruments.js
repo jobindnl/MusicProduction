@@ -11,7 +11,7 @@ next[0].addEventListener("click", function (){
         return
     }
     counter++
-    slider.style.transform = "translateX(" + -532 * counter + "px)"
+    slider.style.transform = "translateX(" + -300 * counter + "px)"
 })
 
 prev[0].addEventListener("click", function (){
@@ -19,5 +19,5 @@ prev[0].addEventListener("click", function (){
         return
     }
     counter--
-    slider.style.transform = "translateX(" + -532 * counter + "px)"
+    slider.style.transform = "translateX(" + -300 * counter + "px)"
 })
