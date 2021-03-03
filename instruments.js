@@ -23,6 +23,7 @@ main.addEventListener('click', function(e){
         }
         array[str] += 1
         slide.style.transform = 'translateX('+ -300 * array[str] + 'px)'
+        e.stopPropagation()
     } else if (e.target.className === 'prev'){
         // console.log(e);
         let slide = e.target.parentElement.previousElementSibling
@@ -33,7 +34,7 @@ main.addEventListener('click', function(e){
         }
         array[str] -= 1
         slide.style.transform = 'translateX('+ -300 * array[str] + 'px)'
-    
+        e.stopPropagation()
     }
 })
 

@@ -53,6 +53,7 @@ button {
 
 .photo-drums, .photo-piano, .photo-perc, .photo-guitar{
   display: flex;
+  transition: 0.2s;
 }
 
 .slider{
