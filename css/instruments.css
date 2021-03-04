@@ -41,15 +41,23 @@ button {
   margin: auto;
 }
 
+.slider-container h1{
+  text-align: center;
+}
+
+.slider-container h1 ~ h1 {
+  margin: 60px auto 10px auto;
+}
+
 .photo-drums, .photo-piano, .photo-perc, .photo-guitar{
   display: flex;
   transition: 0.2s;
 }
 
 .slider{
-  border: 0px solid transparent;
-  border-radius: 10px;
   overflow: hidden;
+  border-radius: 50px;
+  border: 0px solid transparent;
   transition: 0.2s;
   display: flex;
   flex-direction: column;
