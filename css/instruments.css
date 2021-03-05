@@ -2,8 +2,8 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   box-sizing: border-box;
 }
 
@@ -37,14 +37,14 @@ button {
   font-size: xx-large;
   font-weight: 900;
   background: transparent; 
-  color: #ededed;
+  color: white;
   cursor: pointer;
   position: absolute;
 }
 
 h1 {
   padding: 20px 10px;
-  border: 2px solid white;
+  border: 1px solid black;
   letter-spacing: 10px;
   margin: 20px 10px;
 }
@@ -65,9 +65,10 @@ h1 {
 
 .slider-container {
   width: 200px;
-  border: 1px solid white;
+  /* border: 0px solid white; */
   margin: auto;
   overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .photo-drums, .photo-piano, .photo-perc, .photo-guitar{

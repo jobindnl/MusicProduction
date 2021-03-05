@@ -1,7 +1,7 @@
 * {
     font-family: sans-serif;
-    color: white;
-    background: black;
+    color: black;
+    background: white;
     box-sizing: border-box;
     margin: 0;
 }
@@ -22,7 +22,7 @@
     /* background-size: cover; */
     /* background-position: top; */
     
-    border: 2px solid white;
+    border: 2px solid black;
     /* border-image-source: linear-gradient(to top left, blue, red); */
     /* border-image-slice: 1; */
     
@@ -36,14 +36,9 @@
     font-size: 40px;
 }
 
-.grid div+p {
-    color: white;
-    background-color: rgb(51, 51, 51);
+.card p {
     padding: 10px 10px 0px 10px;
-    font-weight: 300;
-    /* color: rgb(170, 170, 170); */
-    color: white;
-
+    /* font-size: 16px; */
 }
 
 .grid {
@@ -67,60 +62,59 @@
 }
 
 .card h3 {
-    position: absolute;
-    top: 100px;
-    left: 65px;
-    border: 1px solid white;
+    /* position: absolute; */
+    /* border: 1px solid white; */
     /* border-image-source: linear-gradient(to top right, red, blue);
     border-image-slice: 1; */
-    width: 180px;
-    margin-bottom: 5px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    padding: 10px;
+    /* width: 180px; */
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    /* letter-spacing: 2px; */
+    /* font-weight: lighter; */
+    /* padding: 10px; */
 }
 
 .cover {
     height: 200px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 #EQ {
     background: url('../img/EQ.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top left;
 }
 
 #Delay {
     background: url('../img/Delay.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top left;
 }
 
 #De-Esser {
     background: url('../img/De-Esser.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top left;
 }
 
 #Reverb {
     background: url('../img/Reverb.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top left;
 }
 /* TODO fix the layout on the compressor label */
 #Compressor {
     background: url('../img/Compressor.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top left;
 }
 
 #Auto-Tune {
     background: url('../img/auto_tune.jpg');
     /* background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url('../img/auto_tune.jpg'); */
     background-size: cover;
-    background-position: center;
+    background-position: top left;
 }
 .grid img {
     width: 300px;
@@ -131,8 +125,10 @@
     margin: 40px;
     /* padding: 5px; */
     width: 300px;
+    /* outline: 2px solid magenta; */
     height: 380px;
-    background-color: rgb(51, 51, 51);
+    /* background-color: rgb(51, 51, 51); */
     border: 0px solid transparent;
-    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
 }
