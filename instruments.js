@@ -22,7 +22,7 @@ main.addEventListener('click', function(e){
             return
         }
         array[str] += 1
-        slide.style.transform = 'translateX('+ -150 * array[str] + 'px)'
+        slide.style.transform = 'translateX('+ -200 * array[str] + 'px)'
         e.stopPropagation()
     } else if (e.target.className === 'prev'){
         // console.log(e);
@@ -33,7 +33,7 @@ main.addEventListener('click', function(e){
             return
         }
         array[str] -= 1
-        slide.style.transform = 'translateX('+ -150 * array[str] + 'px)'
+        slide.style.transform = 'translateX('+ -200 * array[str] + 'px)'
         e.stopPropagation()
     }
 })

@@ -8,7 +8,7 @@
 }
 
 img{
-  height: 150px;
+  height: 200px;
   /* width: 200px; */
 }
 
@@ -23,7 +23,8 @@ img{
   flex-direction: column;
 }
 
-div + p {
+.slider-desc p {
+  margin-top: 10px;
   text-align: center;
   color: rgb(200, 200, 200);
 }
@@ -45,10 +46,11 @@ h1 {
   padding: 20px 10px;
   border: 2px solid white;
   letter-spacing: 10px;
+  margin: 20px 10px;
 }
 
 .layout {
-  margin-top: 200px;
+  margin: 200px 40px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -62,8 +64,8 @@ h1 {
 }
 
 .slider-container {
-  width: 300px;
-  border: 2px solid white;
+  width: 200px;
+  border: 1px solid white;
   margin: auto;
   overflow: hidden;
 }
