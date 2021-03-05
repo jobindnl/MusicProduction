@@ -10,7 +10,7 @@ let array = {
     'photo-piano': 0,
     'photo-guitar': 0
 } 
-let counter = 0
+// let counter = 0
 
 main.addEventListener('click', function(e){
     if(e.target.className === 'next'){
@@ -18,7 +18,7 @@ main.addEventListener('click', function(e){
         let slide = e.target.parentElement.previousElementSibling
         // console.log(slide.className);
         let str = slide.className
-        if(array[str] === 7){
+        if(array[str] === 31){
             return
         }
         array[str] += 1
