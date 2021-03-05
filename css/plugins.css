@@ -23,6 +23,7 @@
     /* background-position: top; */
     
     border: 2px solid black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
     /* border-image-source: linear-gradient(to top left, blue, red); */
     /* border-image-slice: 1; */
     
@@ -38,7 +39,7 @@
 
 .card p {
     padding: 10px 10px 0px 10px;
-    /* font-size: 16px; */
+    font-weight: 200;
 }
 
 .grid {
@@ -53,10 +54,11 @@
     color: gray;
     position: relative;
     letter-spacing: 5px;
+    font-weight: 300;
     bottom: 200px;
     width: 50%;
     line-height: 40px;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
     font-size: 20px;
 }
