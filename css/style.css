@@ -16,7 +16,7 @@
   animation-duration: 2s;
   /* background-image: url(../img/studio.jpg);
   background-size: contain; */
-  height: 700px;
+  height: 100vh;
 }
 
 .bg-dark {
