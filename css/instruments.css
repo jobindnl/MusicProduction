@@ -8,7 +8,7 @@
 }
 
 img{
-  height: 200px;
+  height: 400px;
   /* width: 200px; */
 }
 
@@ -64,11 +64,12 @@ h1 {
 }
 
 .slider-container {
-  width: 200px;
-  /* border: 0px solid white; */
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 10px;
   margin: auto;
   overflow: hidden;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }
 
 .photo-drums, .photo-piano, .photo-perc, .photo-guitar{
