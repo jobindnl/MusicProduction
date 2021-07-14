@@ -6,10 +6,6 @@
   background-color: black;
 }
 
-body {
-  perspective: 1000px;
-}
-
 .container {
   display: flex;
   align-items: center;
