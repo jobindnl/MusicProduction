@@ -13,3 +13,29 @@
 .master-file {
 	width: 500px;
 }
+
+.summary {
+  width: 80vw;
+}
+
+.heading > h1 {
+  font-size: 50px;
+}
+
+.heading > img {
+  width: 150px;
+}
+
+.heading * {
+  margin: 30px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
