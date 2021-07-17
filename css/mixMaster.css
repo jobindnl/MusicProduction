@@ -32,10 +32,19 @@
 
 .heading {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-
   text-align: center;
-  margin-top: 30%;
-  margin-bottom: 30%;
+  height: 100vh;
+}
+
+.element-to-watch {
+  opacity: 0;
+  transform: translateX(-10%);
+}
+
+.active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 1s, transform 1s;
 }
