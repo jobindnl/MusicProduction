@@ -23,7 +23,7 @@
 }
 
 .heading > img {
-  width: 150px;
+  width: 90px;
 }
 
 .heading * {
@@ -41,6 +41,11 @@
 .element-to-watch {
   opacity: 0;
   transform: translateX(-10%);
+}
+
+.description {
+  font-style: italic;
+  width: 30%;
 }
 
 .active {

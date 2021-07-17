@@ -2,13 +2,12 @@ const callback = (element) => {
   element.forEach(item => {
     if(item.isIntersecting) {
       item.target.classList.add('active')
-      console.log(item)
     }
   })
 }
 
 const options = {
-  threshold: 0.55
+  threshold: 0.4
 }
 
 const observer = new IntersectionObserver(callback, options)
