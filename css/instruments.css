@@ -75,7 +75,7 @@ h1 {
   width: 400px;
   border: 2px solid white;
   border-radius: 10px;
-  margin: auto;
+  margin: 5rem auto;
   overflow: hidden;
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }

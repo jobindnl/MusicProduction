@@ -32,6 +32,7 @@
 
 .heading {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
@@ -45,6 +46,7 @@
 
 .description {
   font-style: italic;
+  font-size: 1.4rem;
   width: 30%;
 }
 
