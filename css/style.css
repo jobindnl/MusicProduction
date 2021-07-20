@@ -75,9 +75,8 @@
 
 div h1 {
   white-space: nowrap;
-  margin-right: 10px;
-  /* border-bottom: 1px solid white; */
-}
+  margin-right: 0.5em;
+ }
 
 
 .logo {
@@ -92,26 +91,28 @@ div h1 {
 .plugins{
   display: flex;
   justify-content: space-around;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 20em;
+  margin-bottom: 20em;
   position: relative;
   flex-wrap: wrap;
 }
 
 .statement p{
-  font-size: 20px;
+  font-size: 2rem;
   color: rgb(181, 181, 181);
 }
 
 .statement h3 {
   font-size: 2rem;
-  max-width: 357px;
+  max-width: 38rem;
 }
 
 .statement {
-  max-width: 35%;
-  min-width: 335px;
-  /* padding: 5%; */
+  max-width: 30rem;
+  /* min-width: 335px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 4rem;
   text-align: center;
 }
@@ -123,9 +124,9 @@ div h1 {
 }
 
 #title {
-  border-left: 1px solid white;
-  padding-left: 1.5rem;
-  margin: 30px auto;
+  border-left: 0.1rem solid white;
+  padding-left: 1.5em;
+  margin: 2.4rem auto;
 }
 
 nav {
